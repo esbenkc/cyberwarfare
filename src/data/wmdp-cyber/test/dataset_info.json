@@ -1,0 +1,49 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "wmdp-cyber",
+  "dataset_name": "wmdp",
+  "dataset_size": 1576728,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/cais/wmdp@7125571f22f032c56415e7980f48d877dd830ff8/wmdp-cyber/test-00000-of-00001.parquet": {
+      "num_bytes": 805692,
+      "checksum": null
+    }
+  },
+  "download_size": 805692,
+  "features": {
+    "answer": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choices": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2382420,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 1576728,
+      "num_examples": 1987,
+      "dataset_name": "wmdp"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
