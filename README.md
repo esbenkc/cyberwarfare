@@ -19,7 +19,7 @@ Other ideas for research questions:
 - What are the risks of AI-powered cyber espionage, intellectual property theft, and surveillance?
 - What unity could help states avoid dangerous escalatory spirals? AI mediator development.
 - What safety precautions can be built into AI cyberweapons to constrain effects and prevent blowback? Asimov's law of cyber offense weapons.
--
+- ß
 
 ## 1) What is the current state of cyberwarfare offense / defense balance?
 
