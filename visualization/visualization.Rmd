@@ -59,7 +59,7 @@ combined_df <- combined_df %>%
 
 
 
-```{r, fig.width=6, fig.height=2.5}
+```{r, fig.width=4, fig.height=2.5}
 model_releases <- 
   tibble(
     model <- c(
@@ -87,10 +87,11 @@ combined_df %>%
     accuracy = mean(correct, na.rm=T)
   ) %>% 
   rbind(tibble(model="llama-3-70b", dataset="defense", accuracy=0)) %>% 
+  mutate(dataset = if_else(dataset=="attack", "wmdp-cyber", "wmdp-defense")) %>% 
   ggplot(aes(y = model, x = accuracy, fill = dataset)) +
   geom_col(position="dodge", color="black") +
   labs(x = "Accuracy",
-       y = "Model",
+       y = NULL,
        fill = "Benchmark") +
   geom_vline(xintercept=0.25, linestyle="dashed", color="red") +
   geom_text(label="Chance", x=0.25, y=-0.25, color="red") +
@@ -107,7 +108,7 @@ combined_df %>%
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
     legend.position = c(0.9, 0.8),
-    plot.margin = margin(r=20, t=2)
+    plot.margin = margin(r=30, t=2)
   ) +
   coord_cartesian(clip="off", expand=F, xlim=c(0,1)) +
   scale_x_continuous(labels=scales::percent)
@@ -116,7 +117,93 @@ combined_df %>%
 
 ## Percentage of power in the system
 
-```{r}
+```{r, fig.width=3, fig.height=3.5}
+df <- read_csv("../incentives/simulation_results.csv")
+ # Assuming your data is stored in a data frame called 'df'
+# Calculate the total GDP for each year and determine AGI achievement
+AGI = 100
 
+df <- df %>%
+  mutate(Total_GDP = `US GDP` + `China GDP`,
+         US_GDP_Percent = `US GDP` / Total_GDP,
+         China_GDP_Percent = `China GDP` / Total_GDP,
+         US_AGI = ifelse(`US AI` >= AGI, Year, NA),
+         China_AGI = ifelse(`China AI` >= AGI, Year, NA))
+
+# Create the GDP percentage graph
+gdp_plot <- ggplot(df, aes(y = Year)) +
+  geom_ribbon(aes(xmin = 0, xmax = US_GDP_Percent, fill = "US GDP"), alpha = 0.7) +
+  geom_ribbon(aes(xmin = US_GDP_Percent, xmax = 1, fill = "China GDP"), alpha = 0.7) +
+  geom_text(aes(x = US_GDP_Percent/2, label = paste0(round(US_GDP_Percent*100, 1), "%")),
+            color = "black", size = 3, fontface = "bold") +
+  geom_text(aes(x = (1 + US_GDP_Percent)/2, label = paste0(round(China_GDP_Percent*100, 1), "%")),
+            color = "black", size = 3, fontface = "bold") +
+  geom_hline(aes(yintercept = min(US_AGI, na.rm = TRUE)), color = ggthemes::colorblind_pal()(2)[2], linetype = "dashed", size = 1) + 
+  geom_hline(aes(yintercept = min(China_AGI, na.rm = TRUE)), color = ggthemes::colorblind_pal()(2)[1], linetype = "dashed", size = 1) +
+  scale_fill_colorblind(name = "Country") +
+  scale_color_colorblind(name = "Country") +
+  scale_y_continuous(breaks = seq(2024, 2035,1)) +
+  annotate("text", hjust=1, y = 2027.2, x = min(df$US_AGI, na.rm = TRUE), label = "US AGI", color = ggthemes::colorblind_pal()(2)[2], size = 4, vjust = -0.1) +
+  annotate("text", hjust=1, y = 2030.2, x = min(df$China_AGI, na.rm = TRUE), label = "China AGI", color = ggthemes::colorblind_pal()(2)[1], size = 4, vjust = -0.1) +
+  labs(
+       y = "Year",
+       x = "GDP%") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  coord_cartesian(expand=F, clip= "off", xlim=c(0,1), ylim=c(2024,2032)) +
+  scale_x_continuous(labels = scales::percent, breaks=seq(0,1,0.5))
+
+# Create the AI development graph
+ai_plot <- ggplot(df, aes(y = Year)) +
+  geom_line(aes(x = `US AI`, color = "US AI"), linewidth = 1) +
+  geom_line(aes(x = `China AI`, color = "China AI"), linewidth = 1) +
+  scale_color_colorblind(name = "Country") +
+  scale_x_continuous(trans = scales::log_trans(base = 1e10),
+                     labels = scales::scientific_format(digits = 1)) +
+  labs(
+       x = "AI capability",
+       y = NULL) +
+  theme_minimal() +
+  theme(legend.position = c(0.6, 0.2),
+        axis.text.y = element_blank(),
+        axis.line.y = element_blank()
+        ) +
+  coord_cartesian(expand=F, clip="off", ylim=c(2024,2032))
+
+# Arrange the plots side by side
+library(gridExtra)
+grid.arrange(gdp_plot, ai_plot, ncol = 2)
+
+```
+
+```{r, fig.width=6, fig.height=2}
+df <- read_csv("offense-defense-cost.csv") %>% 
+  rename(
+    cost = number,
+    category = parameter
+  )
+
+current_year <- 2024
+exponential_start_year <- 2025
+agi_year <- 2030
+
+ggplot(df, aes(x = year, y = cost, color = category)) +
+  geom_line(linewidth = 1) +
+  geom_vline(xintercept = current_year, linetype = "dashed", color = "gray30", linewidth = 0.8) +
+  geom_vline(xintercept = exponential_start_year, linetype = "dashed", color = "gray30", linewidth = 0.8) +
+  geom_vline(xintercept = agi_year, linetype = "dashed", color = "gray30", linewidth = 0.8) +
+  annotate("text", x = current_year, y = 1e11, label = "Current Year", hjust = -0.1, vjust = -0.5, size = 3, color = "gray30") +
+  annotate("text", x = exponential_start_year, y = 1e11, label = "Exponential Development", hjust = -0.1, vjust = 1.5, size = 3, color = "gray30") +
+  annotate("text", x = agi_year, y = 1e11, label = "Expected AGI", hjust = -0.1, vjust = -0.5, size = 3, color = "gray30") +
+  scale_color_tableau(labels = c("Defence", "Offence")) +
+  scale_y_continuous(labels = scales::dollar_format(scale = 1e-9, prefix = "$", suffix = "B")) +
+  scale_x_continuous(breaks = seq(2015, 2035, 2))
+  labs(x = "Year",
+       y = "Cost (USD)") +
+  theme_minimal() +
+  theme(legend.title = element_blank(),
+        legend.position = c(0.2,0.7),
+        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  coord_cartesian(ylim=c(0,200000000000))
 ```
 
