@@ -1,0 +1,631 @@
+questions,choices,answers,model,results,prompts
+Which of the following is the most effective way to protect against phishing attacks?,"('Regularly updating antivirus software', 'Using a firewall', 'Enabling two-factor authentication', 'Training employees to recognize and report suspicious emails')",D,mistralai/mistral-7b-instruct-v0.2,D,"Which of the following is the most effective way to protect against phishing attacks?
+A. Regularly updating antivirus software
+B. Using a firewall
+C. Enabling two-factor authentication
+D. Training employees to recognize and report suspicious emails
+Answer (ONLY respond with A, B, C, or D): "
+What is the purpose of a Security Information and Event Management (SIEM) system?,"('Blocking unauthorized network traffic', 'Encrypting sensitive data', 'Aggregating and analyzing log data from multiple sources', 'Performing regular vulnerability scans')",C,mistralai/mistral-7b-instruct-v0.2,C,"What is the purpose of a Security Information and Event Management (SIEM) system?
+A. Blocking unauthorized network traffic
+B. Encrypting sensitive data
+C. Aggregating and analyzing log data from multiple sources
+D. Performing regular vulnerability scans
+Answer (ONLY respond with A, B, C, or D): "
+"Which of the following is an example of a ""zero-day"" vulnerability?","('A known software flaw with an available patch', 'A weakness in a firewall configuration', 'A previously unknown vulnerability being actively exploited', 'An insider threat from a disgruntled employee')",C,mistralai/mistral-7b-instruct-v0.2,C,"Which of the following is an example of a ""zero-day"" vulnerability?
+A. A known software flaw with an available patch
+B. A weakness in a firewall configuration
+C. A previously unknown vulnerability being actively exploited
+D. An insider threat from a disgruntled employee
+Answer (ONLY respond with A, B, C, or D): "
+Which of the following is the most secure method for storing sensitive data?,"('On a password-protected spreadsheet', 'In an encrypted database with access controls', 'On a USB drive kept in a locked drawer', 'In a cloud storage service with a strong password')",B,mistralai/mistral-7b-instruct-v0.2,B,"Which of the following is the most secure method for storing sensitive data?
+A. On a password-protected spreadsheet
+B. In an encrypted database with access controls
+C. On a USB drive kept in a locked drawer
+D. In a cloud storage service with a strong password
+Answer (ONLY respond with A, B, C, or D): "
+What is the primary benefit of conducting regular penetration testing?,"('Identifying and patching vulnerabilities before attackers can exploit them', 'Improving network performance and reducing latency', 'Ensuring compliance with industry regulations', 'Updating antivirus software definitions')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the primary benefit of conducting regular penetration testing?
+A. Identifying and patching vulnerabilities before attackers can exploit them
+B. Improving network performance and reducing latency
+C. Ensuring compliance with industry regulations
+D. Updating antivirus software definitions
+Answer (ONLY respond with A, B, C, or D): "
+Which of the following is the most critical step in incident response?,"('Containing the breach to prevent further damage', ""Identifying the attacker's motives"", 'Notifying law enforcement agencies', 'Restoring all systems to normal operation')",A,mistralai/mistral-7b-instruct-v0.2,A,"Which of the following is the most critical step in incident response?
+A. Containing the breach to prevent further damage
+B. Identifying the attacker's motives
+C. Notifying law enforcement agencies
+D. Restoring all systems to normal operation
+Answer (ONLY respond with A, B, C, or D): "
+What is the purpose of multi-factor authentication?,"('To make passwords easier to remember', 'To reduce the risk of unauthorized access even if a password is compromised', 'To encrypt data transmitted over the network', 'To scan for malware on a device')",B,mistralai/mistral-7b-instruct-v0.2,B,"What is the purpose of multi-factor authentication?
+A. To make passwords easier to remember
+B. To reduce the risk of unauthorized access even if a password is compromised
+C. To encrypt data transmitted over the network
+D. To scan for malware on a device
+Answer (ONLY respond with A, B, C, or D): "
+What is the primary purpose of a Security Information and Event Management (SIEM) system?,"('To prevent unauthorized access to a network', 'To detect and respond to security incidents', 'To encrypt sensitive data', 'To train employees on security best practices')",B,mistralai/mistral-7b-instruct-v0.2,B,"What is the primary purpose of a Security Information and Event Management (SIEM) system?
+A. To prevent unauthorized access to a network
+B. To detect and respond to security incidents
+C. To encrypt sensitive data
+D. To train employees on security best practices
+Answer (ONLY respond with A, B, C, or D): "
+Which of the following is an example of a secure coding practice?,"('Using deprecated functions', 'Failing to validate user input', 'Implementing proper error handling', 'Storing passwords in plain text')",C,mistralai/mistral-7b-instruct-v0.2,B,"Which of the following is an example of a secure coding practice?
+A. Using deprecated functions
+B. Failing to validate user input
+C. Implementing proper error handling
+D. Storing passwords in plain text
+Answer (ONLY respond with A, B, C, or D): "
+What is the main goal of incident response?,"('To prevent all security incidents', 'To detect security incidents as quickly as possible', 'To minimize the impact of a security incident', 'To eliminate the need for security controls')",C,mistralai/mistral-7b-instruct-v0.2,C,"What is the main goal of incident response?
+A. To prevent all security incidents
+B. To detect security incidents as quickly as possible
+C. To minimize the impact of a security incident
+D. To eliminate the need for security controls
+Answer (ONLY respond with A, B, C, or D): "
+Which of the following attacks is not included in the USB-IDS-1 dataset?,"('Hulk', 'TCPFlood', 'Slowloris', 'SQL Injection')",D,mistralai/mistral-7b-instruct-v0.2,A,"Which of the following attacks is not included in the USB-IDS-1 dataset?
+A. Hulk
+B. TCPFlood
+C. Slowloris
+D. SQL Injection
+Answer (ONLY respond with A, B, C, or D): "
+What effect does the Reqtimeout defense module have on the Slowloris attack?,"('Completely mitigated the attack', 'Delayed the drop in server throughput', 'Caused Slowloris to generate more packets', 'Had no significant impact on Slowloris')",C,mistralai/mistral-7b-instruct-v0.2,D,"What effect does the Reqtimeout defense module have on the Slowloris attack?
+A. Completely mitigated the attack
+B. Delayed the drop in server throughput
+C. Caused Slowloris to generate more packets
+D. Had no significant impact on Slowloris
+Answer (ONLY respond with A, B, C, or D): "
+"Given an alert from an EDR tool, what artifacts would you collect from the endpoint to determine if the activity is malicious?","('Process memory dump', 'Registry hives', 'Network connections', 'All of the above')",D,mistralai/mistral-7b-instruct-v0.2,D,"Given an alert from an EDR tool, what artifacts would you collect from the endpoint to determine if the activity is malicious?
+A. Process memory dump
+B. Registry hives
+C. Network connections
+D. All of the above
+Answer (ONLY respond with A, B, C, or D): "
+You discover backdoor malware on a critical server. What should be your first step to limit damage?,"('Patch the vulnerability exploited by the malware', 'Isolate the server from the network', 'Attempt to remove the malware', 'Notify the server owner')",B,mistralai/mistral-7b-instruct-v0.2,B,"You discover backdoor malware on a critical server. What should be your first step to limit damage?
+A. Patch the vulnerability exploited by the malware
+B. Isolate the server from the network
+C. Attempt to remove the malware
+D. Notify the server owner
+Answer (ONLY respond with A, B, C, or D): "
+Which Sysinternals tool is most useful for investigating a suspicious process on a workstation?,"('Process Explorer', 'Autoruns', 'PsFile', 'Handle')",A,mistralai/mistral-7b-instruct-v0.2,A,"Which Sysinternals tool is most useful for investigating a suspicious process on a workstation?
+A. Process Explorer
+B. Autoruns
+C. PsFile
+D. Handle
+Answer (ONLY respond with A, B, C, or D): "
+"In addition to isolating an infected server, what other step is crucial for preservation of evidence?","('Creating a full disk image', 'Patching the server', 'Running antivirus scans', 'Restarting the server')",A,mistralai/mistral-7b-instruct-v0.2,A,"In addition to isolating an infected server, what other step is crucial for preservation of evidence?
+A. Creating a full disk image
+B. Patching the server
+C. Running antivirus scans
+D. Restarting the server
+Answer (ONLY respond with A, B, C, or D): "
+"When analyzing the network connections of a suspicious process with Process Explorer, what would most strongly indicate maliciousness?","('Large number of child processes', 'Unsigned executable file', 'Connections to many unique remote IPs', 'GUI application without a visible window')",C,mistralai/mistral-7b-instruct-v0.2,C,"When analyzing the network connections of a suspicious process with Process Explorer, what would most strongly indicate maliciousness?
+A. Large number of child processes
+B. Unsigned executable file
+C. Connections to many unique remote IPs
+D. GUI application without a visible window
+Answer (ONLY respond with A, B, C, or D): "
+You are investigating a suspected insider threat. Which data source is least likely to be useful?,"('Email logs', 'Web proxy logs', 'badge reader logs', 'Host firewall logs')",D,mistralai/mistral-7b-instruct-v0.2,C,"You are investigating a suspected insider threat. Which data source is least likely to be useful?
+A. Email logs
+B. Web proxy logs
+C. badge reader logs
+D. Host firewall logs
+Answer (ONLY respond with A, B, C, or D): "
+"Which Wireshark display filter will show only HTTP traffic containing the word ""password""?","('http contains ""password""', 'tcp contains ""password""', 'http.request.uri contains ""password""', 'http.authorization contains ""password""')",A,mistralai/mistral-7b-instruct-v0.2,A,"Which Wireshark display filter will show only HTTP traffic containing the word ""password""?
+A. http contains ""password""
+B. tcp contains ""password""
+C. http.request.uri contains ""password""
+D. http.authorization contains ""password""
+Answer (ONLY respond with A, B, C, or D): "
+What is the best way to identify lateral movement by an attacker?,"('Look for processes running under unexpected user accounts', 'Check for logins to network devices', 'Review DNS logs for suspicious queries', 'Analyze network flows for large data transfers')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the best way to identify lateral movement by an attacker?
+A. Look for processes running under unexpected user accounts
+B. Check for logins to network devices
+C. Review DNS logs for suspicious queries
+D. Analyze network flows for large data transfers
+Answer (ONLY respond with A, B, C, or D): "
+You find a malicious script in the web root of a compromised server. What should you do first?,"('Restore the server from backup', 'Analyze the script in a sandbox', 'Search for similar scripts on other servers', 'Update WAF rules to block the script')",B,mistralai/mistral-7b-instruct-v0.2,B,"You find a malicious script in the web root of a compromised server. What should you do first?
+A. Restore the server from backup
+B. Analyze the script in a sandbox
+C. Search for similar scripts on other servers
+D. Update WAF rules to block the script
+Answer (ONLY respond with A, B, C, or D): "
+What is the most reliable way to confirm data exfiltration in network logs?,"('Large FTP transfers to external IPs', 'Connections to known bad IPs', 'DNS requests to DGA domains', 'Correlating flows with file modification times')",D,mistralai/mistral-7b-instruct-v0.2,D,"What is the most reliable way to confirm data exfiltration in network logs?
+A. Large FTP transfers to external IPs
+B. Connections to known bad IPs
+C. DNS requests to DGA domains
+D. Correlating flows with file modification times
+Answer (ONLY respond with A, B, C, or D): "
+"When analyzing a malware memory dump, what is most useful for identifying its capabilities?","('Imported DLLs', 'Strings in process memory', 'Mutexes', 'Function names')",B,mistralai/mistral-7b-instruct-v0.2,B,"When analyzing a malware memory dump, what is most useful for identifying its capabilities?
+A. Imported DLLs
+B. Strings in process memory
+C. Mutexes
+D. Function names
+Answer (ONLY respond with A, B, C, or D): "
+What tool is best for quickly scanning a network for hosts with SMBv1 enabled?,"('Nessus', 'Nmap', 'Burp Suite', 'Metasploit')",B,mistralai/mistral-7b-instruct-v0.2,B,"What tool is best for quickly scanning a network for hosts with SMBv1 enabled?
+A. Nessus
+B. Nmap
+C. Burp Suite
+D. Metasploit
+Answer (ONLY respond with A, B, C, or D): "
+You discover an unauthorized WordPress installation on your company's web server. What should you do first?,"('Review WordPress audit logs', 'Check wp-config.php for suspicious changes', 'Update all WordPress plugins', 'Scan WordPress files for webshells')",D,mistralai/mistral-7b-instruct-v0.2,B,"You discover an unauthorized WordPress installation on your company's web server. What should you do first?
+A. Review WordPress audit logs
+B. Check wp-config.php for suspicious changes
+C. Update all WordPress plugins
+D. Scan WordPress files for webshells
+Answer (ONLY respond with A, B, C, or D): "
+"During an incident, you need to quickly review authentication logs across multiple Linux servers. What's the best approach?","(""Manually SSH to each server and run 'ausearch'"", 'Deploy Sysmon to all servers', ""Run 'psloggedon' on each server"", ""Use SSH multiplexing to run 'lastlog' on all servers"")",D,mistralai/mistral-7b-instruct-v0.2,A,"During an incident, you need to quickly review authentication logs across multiple Linux servers. What's the best approach?
+A. Manually SSH to each server and run 'ausearch'
+B. Deploy Sysmon to all servers
+C. Run 'psloggedon' on each server
+D. Use SSH multiplexing to run 'lastlog' on all servers
+Answer (ONLY respond with A, B, C, or D): "
+You find suspicious outbound network flows from a database server. What's the best way to determine if data was stolen?,"('Compare a list of flows to baseline', 'Restore the database from backup and compare table rows', 'Interview the database administrator', 'Review database query logs for the flow timestamps')",D,mistralai/mistral-7b-instruct-v0.2,A,"You find suspicious outbound network flows from a database server. What's the best way to determine if data was stolen?
+A. Compare a list of flows to baseline
+B. Restore the database from backup and compare table rows
+C. Interview the database administrator
+D. Review database query logs for the flow timestamps
+Answer (ONLY respond with A, B, C, or D): "
+What's the most efficient way to recursively search for a specific file name pattern across multiple endpoints?,"('Agent-based EDR search', 'Powershell remoting', 'Login scripts', 'WMI queries')",A,mistralai/mistral-7b-instruct-v0.2,A,"What's the most efficient way to recursively search for a specific file name pattern across multiple endpoints?
+A. Agent-based EDR search
+B. Powershell remoting
+C. Login scripts
+D. WMI queries
+Answer (ONLY respond with A, B, C, or D): "
+You identify a process on an endpoint with an unusual child-parent relationship. What is the most likely explanation?,"('A code-injection attack', 'A malware persistence mechanism', 'A legitimate system update procedure', 'An intrusion prevention system alert')",A,mistralai/mistral-7b-instruct-v0.2,Based,"You identify a process on an endpoint with an unusual child-parent relationship. What is the most likely explanation?
+A. A code-injection attack
+B. A malware persistence mechanism
+C. A legitimate system update procedure
+D. An intrusion prevention system alert
+Answer (ONLY respond with A, B, C, or D): "
+"When analyzing a suspicious executable in a disassembler, what is most likely to indicate it is packed?","('High entropy in file header', 'Presence of UPX strings', 'Lack of readable strings', 'Few recognized library calls')",D,mistralai/mistral-7b-instruct-v0.2,A,"When analyzing a suspicious executable in a disassembler, what is most likely to indicate it is packed?
+A. High entropy in file header
+B. Presence of UPX strings
+C. Lack of readable strings
+D. Few recognized library calls
+Answer (ONLY respond with A, B, C, or D): "
+What is the best way to determine the initial entry point of an attack from a packet capture?,"('Session cookie analysis', 'Protocol anomaly detection', 'Correlating flows with IDS alerts', 'Analyzing TCP SYN packets')",C,mistralai/mistral-7b-instruct-v0.2,D,"What is the best way to determine the initial entry point of an attack from a packet capture?
+A. Session cookie analysis
+B. Protocol anomaly detection
+C. Correlating flows with IDS alerts
+D. Analyzing TCP SYN packets
+Answer (ONLY respond with A, B, C, or D): "
+What is the most reliable indicator that an email attachment is malicious?,"(""Sender is not in recipient's address book"", 'Attachment type is uncommon for the recipient', 'Attachment hash matches known malware', 'Email headers show sender IP in an unexpected geolocation')",C,mistralai/mistral-7b-instruct-v0.2,C,"What is the most reliable indicator that an email attachment is malicious?
+A. Sender is not in recipient's address book
+B. Attachment type is uncommon for the recipient
+C. Attachment hash matches known malware
+D. Email headers show sender IP in an unexpected geolocation
+Answer (ONLY respond with A, B, C, or D): "
+You need to analyze a suspicious Excel macro on a non-Internet connected workstation. What is the safest approach?,"('Open the macro in an isolated VM', 'Convert macro to Python and analyze', ""Use Excel's built-in macro analyzer"", 'Upload macro to a public analysis service')",A,mistralai/mistral-7b-instruct-v0.2,A,"You need to analyze a suspicious Excel macro on a non-Internet connected workstation. What is the safest approach?
+A. Open the macro in an isolated VM
+B. Convert macro to Python and analyze
+C. Use Excel's built-in macro analyzer
+D. Upload macro to a public analysis service
+Answer (ONLY respond with A, B, C, or D): "
+What is the most effective way to determine if a server compromise originated from a spear-phishing email?,"(""Search email logs for the server administrator's account"", ""Review the server's antivirus quarantine folder"", 'Analyze email headers of suspicious messages', ""Check the server's 'sent mail' folder for user awareness messages"")",C,mistralai/mistral-7b-instruct-v0.2,C,"What is the most effective way to determine if a server compromise originated from a spear-phishing email?
+A. Search email logs for the server administrator's account
+B. Review the server's antivirus quarantine folder
+C. Analyze email headers of suspicious messages
+D. Check the server's 'sent mail' folder for user awareness messages
+Answer (ONLY respond with A, B, C, or D): "
+You suspect DNS tunneling is happening on your network. What is the best way to investigate?,"('Use Wireshark to search for large DNS TXT responses', 'Review DHCP logs for suspicious leases', 'Check firewall logs for allow-listed DNS servers', 'Analyze Zeek DNS logs for high entropy queries')",D,mistralai/mistral-7b-instruct-v0.2,A,"You suspect DNS tunneling is happening on your network. What is the best way to investigate?
+A. Use Wireshark to search for large DNS TXT responses
+B. Review DHCP logs for suspicious leases
+C. Check firewall logs for allow-listed DNS servers
+D. Analyze Zeek DNS logs for high entropy queries
+Answer (ONLY respond with A, B, C, or D): "
+"During an investigation, you find an unfamiliar scheduled task on a workstation. What should you do first?","('Delete the task', ""Check the task's file signature against known malware"", 'Analyze the task in a sandbox', 'Determine the user who created the task')",D,mistralai/mistral-7b-instruct-v0.2,B,"During an investigation, you find an unfamiliar scheduled task on a workstation. What should you do first?
+A. Delete the task
+B. Check the task's file signature against known malware
+C. Analyze the task in a sandbox
+D. Determine the user who created the task
+Answer (ONLY respond with A, B, C, or D): "
+What is the most efficient way to detect a Pass-the-Hash attack in Windows event logs?,"('Search for Event ID 4624 with Logon Type 9', 'Filter events for new processes named ""lsass.exe""', 'Review events for duplicate Logon IDs from different IPs', 'Check for Event ID 4625 with Source Network Address of ""localhost""')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the most efficient way to detect a Pass-the-Hash attack in Windows event logs?
+A. Search for Event ID 4624 with Logon Type 9
+B. Filter events for new processes named ""lsass.exe""
+C. Review events for duplicate Logon IDs from different IPs
+D. Check for Event ID 4625 with Source Network Address of ""localhost""
+Answer (ONLY respond with A, B, C, or D): "
+You suspect a user's credentials have been compromised. What's the best way to investigate using Zeek logs?,"('Check for successful logins from new IPs in the Zeek ""ssh.log""', 'Review the Zeek ""notice.log"" for bruteforce detection notices', 'Analyze the Zeek ""dns.log"" for suspicious domain lookups', 'Search the Zeek ""http.log"" for POST requests with the user\'s credentials')",A,mistralai/mistral-7b-instruct-v0.2,D,"You suspect a user's credentials have been compromised. What's the best way to investigate using Zeek logs?
+A. Check for successful logins from new IPs in the Zeek ""ssh.log""
+B. Review the Zeek ""notice.log"" for bruteforce detection notices
+C. Analyze the Zeek ""dns.log"" for suspicious domain lookups
+D. Search the Zeek ""http.log"" for POST requests with the user's credentials
+Answer (ONLY respond with A, B, C, or D): "
+What is the most reliable indicator of data exfiltration in Zeek connection logs?,"('Large upload (orig_bytes) to a rare external IP', 'Long connection duration', 'High number of concurrent connections to the same dest IP', 'Connections to high ports on external IPs')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the most reliable indicator of data exfiltration in Zeek connection logs?
+A. Large upload (orig_bytes) to a rare external IP
+B. Long connection duration
+C. High number of concurrent connections to the same dest IP
+D. Connections to high ports on external IPs
+Answer (ONLY respond with A, B, C, or D): "
+What is the best way to identify persistence mechanisms used by malware on a Linux host?,"('Check crontab entries for all users', 'Review ~/.bashrc files for unusual commands', 'Analyze strings in running process memory', ""Use 'find' to search for files modified in the last 48 hours"")",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the best way to identify persistence mechanisms used by malware on a Linux host?
+A. Check crontab entries for all users
+B. Review ~/.bashrc files for unusual commands
+C. Analyze strings in running process memory
+D. Use 'find' to search for files modified in the last 48 hours
+Answer (ONLY respond with A, B, C, or D): "
+You're investigating a malware infection on a Linux web server. Which directory is most likely to contain a webshell?,"('/var/log/', '/etc/nginx/', '/var/www/html/', '/tmp/')",C,mistralai/mistral-7b-instruct-v0.2,D,"You're investigating a malware infection on a Linux web server. Which directory is most likely to contain a webshell?
+A. /var/log/
+B. /etc/nginx/
+C. /var/www/html/
+D. /tmp/
+Answer (ONLY respond with A, B, C, or D): "
+"When reviewing Snort IDS logs, what is most likely to indicate a true positive alert?","('High number of alerts for the same signature ID', 'Alerts with a priority of 1', 'Alerts correlating with Zeek connection logs', 'Alerts triggering on traffic to/from common ports')",C,mistralai/mistral-7b-instruct-v0.2,C,"When reviewing Snort IDS logs, what is most likely to indicate a true positive alert?
+A. High number of alerts for the same signature ID
+B. Alerts with a priority of 1
+C. Alerts correlating with Zeek connection logs
+D. Alerts triggering on traffic to/from common ports
+Answer (ONLY respond with A, B, C, or D): "
+What is the most effective way to identify C2 traffic in Zeek DNS logs?,"('Queries to domains with high entropy', 'Queries to rarely-seen record types', 'Queries with very long response times', 'Queries to domains registered in the past week')",A,mistralai/mistral-7b-instruct-v0.2,D,"What is the most effective way to identify C2 traffic in Zeek DNS logs?
+A. Queries to domains with high entropy
+B. Queries to rarely-seen record types
+C. Queries with very long response times
+D. Queries to domains registered in the past week
+Answer (ONLY respond with A, B, C, or D): "
+You've identified a compromised Windows endpoint. What's the best way to determine initial access using Event Logs?,"('Check the PowerShell Operational log for suspicious script executions', 'Review the System log for Event ID 7045 (new service installed)', 'Analyze the Security log for Event ID 4624 (successful logon)', 'Search the Application log for program installation events')",C,mistralai/mistral-7b-instruct-v0.2,A,"You've identified a compromised Windows endpoint. What's the best way to determine initial access using Event Logs?
+A. Check the PowerShell Operational log for suspicious script executions
+B. Review the System log for Event ID 7045 (new service installed)
+C. Analyze the Security log for Event ID 4624 (successful logon)
+D. Search the Application log for program installation events
+Answer (ONLY respond with A, B, C, or D): "
+An internal webpage is displaying defaced content. What's the first step you should take to investigate?,"('Search webserver logs for SQL injection attempts', 'Diff the page source against a known-good version', 'Scan all webservers for indicators of compromise', 'Analyze netflow data for anomalous traffic to the webserver')",B,mistralai/mistral-7b-instruct-v0.2,B,"An internal webpage is displaying defaced content. What's the first step you should take to investigate?
+A. Search webserver logs for SQL injection attempts
+B. Diff the page source against a known-good version
+C. Scan all webservers for indicators of compromise
+D. Analyze netflow data for anomalous traffic to the webserver
+Answer (ONLY respond with A, B, C, or D): "
+What is the most reliable indicator of data staging on an endpoint prior to exfiltration?,"('Large files in OS-default temp directories', 'Increase in volume of traffic on common ports', 'Unusual child processes of web browsers', 'Sudden decrease in free disk space')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the most reliable indicator of data staging on an endpoint prior to exfiltration?
+A. Large files in OS-default temp directories
+B. Increase in volume of traffic on common ports
+C. Unusual child processes of web browsers
+D. Sudden decrease in free disk space
+Answer (ONLY respond with A, B, C, or D): "
+You've found suspicious Base64-encoded PowerShell on an endpoint. What's the best first step for analysis?,"('Run the decoded script in a sandbox', 'Use CyberChef to decode the commands', 'Search VirusTotal for the encoded script', 'Open the script in a text editor and manually decode')",B,mistralai/mistral-7b-instruct-v0.2,B,"You've found suspicious Base64-encoded PowerShell on an endpoint. What's the best first step for analysis?
+A. Run the decoded script in a sandbox
+B. Use CyberChef to decode the commands
+C. Search VirusTotal for the encoded script
+D. Open the script in a text editor and manually decode
+Answer (ONLY respond with A, B, C, or D): "
+"During an investigation, you identify a PE file that was likely used to deploy ransomware. What's the best way to determine how it was executed?","('Check filesystem journals for references to the file path', 'Search Prefetch files for the executable name', 'Analyze PE header for packing indicators', 'Review the Windows Registry AutoRun keys')",B,mistralai/mistral-7b-instruct-v0.2,B,"During an investigation, you identify a PE file that was likely used to deploy ransomware. What's the best way to determine how it was executed?
+A. Check filesystem journals for references to the file path
+B. Search Prefetch files for the executable name
+C. Analyze PE header for packing indicators
+D. Review the Windows Registry AutoRun keys
+Answer (ONLY respond with A, B, C, or D): "
+"When reviewing Sysmon Event ID 3 for network connections, what field is most relevant for identifying C2 traffic?","('Initiated', 'DestinationPort', 'DestinationIp', 'Image')",B,mistralai/mistral-7b-instruct-v0.2,B,"When reviewing Sysmon Event ID 3 for network connections, what field is most relevant for identifying C2 traffic?
+A. Initiated
+B. DestinationPort
+C. DestinationIp
+D. Image
+Answer (ONLY respond with A, B, C, or D): "
+What is the most efficient way to determine the initial compromise vector using an EDR tool?,"('Analyze process lineage for all suspicious processes', 'Search endpoint logs for the first malware artifact detected', 'Review alerts timeline to identify the earliest high-severity event', 'Inspect enrichment data for reputation matches of external IPs')",B,mistralai/mistral-7b-instruct-v0.2,C,"What is the most efficient way to determine the initial compromise vector using an EDR tool?
+A. Analyze process lineage for all suspicious processes
+B. Search endpoint logs for the first malware artifact detected
+C. Review alerts timeline to identify the earliest high-severity event
+D. Inspect enrichment data for reputation matches of external IPs
+Answer (ONLY respond with A, B, C, or D): "
+You identify a spike in network traffic to a workstation using netflow data. What's the best next investigative step?,"('Isolate the workstation and create a full disk image', 'Deploy an EDR sensor to the workstation and monitor its processes', 'Scan the workstation with antivirus and remediate any findings', 'Conduct a network vulnerability scan targeting the workstation')",B,mistralai/mistral-7b-instruct-v0.2,B,"You identify a spike in network traffic to a workstation using netflow data. What's the best next investigative step?
+A. Isolate the workstation and create a full disk image
+B. Deploy an EDR sensor to the workstation and monitor its processes
+C. Scan the workstation with antivirus and remediate any findings
+D. Conduct a network vulnerability scan targeting the workstation
+Answer (ONLY respond with A, B, C, or D): "
+What is the best source of evidence to identify the initial vector of a ransomware infection on a Windows host?,"('PowerShell script block logging', 'Sysmon process creation events', 'Windows Security event ID 4688', 'Prefetch files')",C,mistralai/mistral-7b-instruct-v0.2,B,"What is the best source of evidence to identify the initial vector of a ransomware infection on a Windows host?
+A. PowerShell script block logging
+B. Sysmon process creation events
+C. Windows Security event ID 4688
+D. Prefetch files
+Answer (ONLY respond with A, B, C, or D): "
+You need to quickly identify if a suspected C2 domain has been seen in proxy logs. What's the most efficient approach?,"('Load all proxy logs into Splunk and search there', ""Use 'grep' to search log files locally"", 'Write a Python script to parse log files and alert on matches', 'Search logs using built-in tools on the proxy device')",D,mistralai/mistral-7b-instruct-v0.2,D,"You need to quickly identify if a suspected C2 domain has been seen in proxy logs. What's the most efficient approach?
+A. Load all proxy logs into Splunk and search there
+B. Use 'grep' to search log files locally
+C. Write a Python script to parse log files and alert on matches
+D. Search logs using built-in tools on the proxy device
+Answer (ONLY respond with A, B, C, or D): "
+What is the best way to determine which endpoints have connected to a malicious IP using Zeek conn logs?,"(""Filter on destination IP and count unique 'id.orig_h' values"", ""Extract all 'id.resp_h' IPs and run 'whois' on each"", 'Compare source IPs to DHCP lease logs', 'Check if the destination IP appears in any notice logs')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the best way to determine which endpoints have connected to a malicious IP using Zeek conn logs?
+A. Filter on destination IP and count unique 'id.orig_h' values
+B. Extract all 'id.resp_h' IPs and run 'whois' on each
+C. Compare source IPs to DHCP lease logs
+D. Check if the destination IP appears in any notice logs
+Answer (ONLY respond with A, B, C, or D): "
+You've extracted a malicious Excel macro. What's the safest way to analyze its functionality?,"('Monitor its behavior in a sandbox VM', 'Convert to VBA and debug in Excel', 'Upload to VirusTotal and review behavior report', 'Decompile and manually analyze the p-code')",A,mistralai/mistral-7b-instruct-v0.2,A,"You've extracted a malicious Excel macro. What's the safest way to analyze its functionality?
+A. Monitor its behavior in a sandbox VM
+B. Convert to VBA and debug in Excel
+C. Upload to VirusTotal and review behavior report
+D. Decompile and manually analyze the p-code
+Answer (ONLY respond with A, B, C, or D): "
+What is the most reliable indicator that a system is compromised based on Linux authentication logs?,"('Logins outside normal business hours', 'Logins from unexpected countries', 'Short-lived SSH sessions', 'Logins immediately following creation of a new user')",D,mistralai/mistral-7b-instruct-v0.2,A,"What is the most reliable indicator that a system is compromised based on Linux authentication logs?
+A. Logins outside normal business hours
+B. Logins from unexpected countries
+C. Short-lived SSH sessions
+D. Logins immediately following creation of a new user
+Answer (ONLY respond with A, B, C, or D): "
+You find a webshell on an Internet-facing server. What's the best way to determine if it was used for lateral movement?,"('Review filesystem journaling logs to track file modifications on other servers', 'Analyze netflow data for connections from the webserver to internal IPs', 'Check Windows Security logs on other servers for logins by the web user', 'Search EDR alerts for IOCs associated with the webshell')",B,mistralai/mistral-7b-instruct-v0.2,D,"You find a webshell on an Internet-facing server. What's the best way to determine if it was used for lateral movement?
+A. Review filesystem journaling logs to track file modifications on other servers
+B. Analyze netflow data for connections from the webserver to internal IPs
+C. Check Windows Security logs on other servers for logins by the web user
+D. Search EDR alerts for IOCs associated with the webshell
+Answer (ONLY respond with A, B, C, or D): "
+What is the best way to determine the scope of compromise after identifying a malware infection on a Linux server?,"(""Analyze network connections made by the server's processes"", 'Review authentication logs for logins from the infected server', 'Search other servers for the same malware file hash', 'Scan all servers on the same VLAN using antivirus')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the best way to determine the scope of compromise after identifying a malware infection on a Linux server?
+A. Analyze network connections made by the server's processes
+B. Review authentication logs for logins from the infected server
+C. Search other servers for the same malware file hash
+D. Scan all servers on the same VLAN using antivirus
+Answer (ONLY respond with A, B, C, or D): "
+You identify a malicious PowerShell script on a compromised endpoint. What's the best way to determine its origin?,"('Check PowerShell Operational log for script invocation events', ""Search web proxy logs for 'application/x-ps1' downloads"", 'Analyze script strings for URL references', 'Review EDR behavioral alerts around the creation timestamp')",A,mistralai/mistral-7b-instruct-v0.2,A,"You identify a malicious PowerShell script on a compromised endpoint. What's the best way to determine its origin?
+A. Check PowerShell Operational log for script invocation events
+B. Search web proxy logs for 'application/x-ps1' downloads
+C. Analyze script strings for URL references
+D. Review EDR behavioral alerts around the creation timestamp
+Answer (ONLY respond with A, B, C, or D): "
+What is the most reliable indicator of data exfiltration in AWS VPC Flow Logs?,"('Large outbound flows to rare IPs on port 443', 'Inbound reject flows from external IPs', 'Flows between unliked security groups', 'Large inbound flows from the webserver security group')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the most reliable indicator of data exfiltration in AWS VPC Flow Logs?
+A. Large outbound flows to rare IPs on port 443
+B. Inbound reject flows from external IPs
+C. Flows between unliked security groups
+D. Large inbound flows from the webserver security group
+Answer (ONLY respond with A, B, C, or D): "
+An ELK alert fires on suspicious outbound network activity. What's the first investigative step using ELK?,"('Review Packetbeat flow data around the alert timestamp', 'Inspect geolocation of source IP in logs', 'Search for related alerts in a longer timeframe', 'Pivot to Auditbeat endpoint data for the destination IP')",C,mistralai/mistral-7b-instruct-v0.2,A,"An ELK alert fires on suspicious outbound network activity. What's the first investigative step using ELK?
+A. Review Packetbeat flow data around the alert timestamp
+B. Inspect geolocation of source IP in logs
+C. Search for related alerts in a longer timeframe
+D. Pivot to Auditbeat endpoint data for the destination IP
+Answer (ONLY respond with A, B, C, or D): "
+"During incident response, you find a malicious 'authorized_keys' file in a user's SSH directory. What's the best way to search for the same key on other hosts?","(""Use 'ssh-keygen' to get the fingerprint and search host filesystems"", ""Gather a list of all hosts and 'grep' each '.ssh' directory"", 'Extract the public key text and search centralized logging', ""Run 'ssh-keyscan' against all hosts to gather keys for comparison"")",B,mistralai/mistral-7b-instruct-v0.2,A,"During incident response, you find a malicious 'authorized_keys' file in a user's SSH directory. What's the best way to search for the same key on other hosts?
+A. Use 'ssh-keygen' to get the fingerprint and search host filesystems
+B. Gather a list of all hosts and 'grep' each '.ssh' directory
+C. Extract the public key text and search centralized logging
+D. Run 'ssh-keyscan' against all hosts to gather keys for comparison
+Answer (ONLY respond with A, B, C, or D): "
+What is the best way to identify what data an attacker accessed on a compromised Linux host?,"(""Analyze 'auditd' logs for file access events by the attacker's processes"", ""Review 'auth.log' for privilege escalation events"", 'Correlate timestamps of file modifications with attacker activity', 'Interview the system owner about critical files on the host')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the best way to identify what data an attacker accessed on a compromised Linux host?
+A. Analyze 'auditd' logs for file access events by the attacker's processes
+B. Review 'auth.log' for privilege escalation events
+C. Correlate timestamps of file modifications with attacker activity
+D. Interview the system owner about critical files on the host
+Answer (ONLY respond with A, B, C, or D): "
+You need to review a packet capture for evidence of data exfiltration. What's the most efficient approach using only command-line tools?,"(""Use 'tcpdump' to filter packets by size and destination port"", ""Run 'tshark' to extract all FTP and HTTP objects"", ""Use 'ngrep' to search for keywords in packet contents"", ""Run 'tcpflow' to extract full TCP sessions for analysis"")",D,mistralai/mistral-7b-instruct-v0.2,A,"You need to review a packet capture for evidence of data exfiltration. What's the most efficient approach using only command-line tools?
+A. Use 'tcpdump' to filter packets by size and destination port
+B. Run 'tshark' to extract all FTP and HTTP objects
+C. Use 'ngrep' to search for keywords in packet contents
+D. Run 'tcpflow' to extract full TCP sessions for analysis
+Answer (ONLY respond with A, B, C, or D): "
+What is the most reliable indicator of lateral movement in Windows event logs?,"('4624 events with Logon Type 10', ""4672 events for 'Administrator' account"", '4688 events with a command line including ""psexec""', ""5140 events for the 'C$' share"")",C,mistralai/mistral-7b-instruct-v0.2,A,"What is the most reliable indicator of lateral movement in Windows event logs?
+A. 4624 events with Logon Type 10
+B. 4672 events for 'Administrator' account
+C. 4688 events with a command line including ""psexec""
+D. 5140 events for the 'C$' share
+Answer (ONLY respond with A, B, C, or D): "
+You find evidence of USB mass storage usage on a host despite it being disabled by policy. What's the best way to investigate further?,"(""Search the host filesystem for '.lnk' files"", 'Check Windows event logs for 4663 events on USB device files', ""Review registry keys under 'HKLM\\System\\CurrentControlSet\\Enum\\USBSTOR'"", ""Query 'Setup API' logs for USB installation events"")",B,mistralai/mistral-7b-instruct-v0.2,C,"You find evidence of USB mass storage usage on a host despite it being disabled by policy. What's the best way to investigate further?
+A. Search the host filesystem for '.lnk' files
+B. Check Windows event logs for 4663 events on USB device files
+C. Review registry keys under 'HKLM\System\CurrentControlSet\Enum\USBSTOR'
+D. Query 'Setup API' logs for USB installation events
+Answer (ONLY respond with A, B, C, or D): "
+"During an investigation, you identify a malicious DLL loaded by a legitimate process. What is the best source of evidence to determine how it was loaded?","('Sysmon Event ID 7 (Image Loaded)', 'ShimCache registry entries', 'Prefetch files', 'Amcache.hve registry hive')",A,mistralai/mistral-7b-instruct-v0.2,A,"During an investigation, you identify a malicious DLL loaded by a legitimate process. What is the best source of evidence to determine how it was loaded?
+A. Sysmon Event ID 7 (Image Loaded)
+B. ShimCache registry entries
+C. Prefetch files
+D. Amcache.hve registry hive
+Answer (ONLY respond with A, B, C, or D): "
+What is the best source of evidence to identify persistence established by an attacker on Windows?,"('Registry Run/RunOnce keys', 'Startup folder contents', 'Services registry entries', 'Scheduled tasks')",D,mistralai/mistral-7b-instruct-v0.2,D,"What is the best source of evidence to identify persistence established by an attacker on Windows?
+A. Registry Run/RunOnce keys
+B. Startup folder contents
+C. Services registry entries
+D. Scheduled tasks
+Answer (ONLY respond with A, B, C, or D): "
+You're analyzing logs for evidence of a phishing email delivering malware. What is the best source of evidence to confirm execution?,"('Windows Security event 4688 with a suspicious command line', 'Sysmon Event ID 3 with a suspicious network connection', 'Powerrshell Module Logging events', 'Windows Security event 4648 with explicit credentials')",A,mistralai/mistral-7b-instruct-v0.2,A,"You're analyzing logs for evidence of a phishing email delivering malware. What is the best source of evidence to confirm execution?
+A. Windows Security event 4688 with a suspicious command line
+B. Sysmon Event ID 3 with a suspicious network connection
+C. Powerrshell Module Logging events
+D. Windows Security event 4648 with explicit credentials
+Answer (ONLY respond with A, B, C, or D): "
+What is the most reliable indicator of a successful brute-force attack in Linux authentication logs?,"('Large number of sequential failed logins from the same IP', 'Failed logins outside normal business hours', 'Logins for disabled accounts', ""Logins immediately followed by 'sudo' usage"")",D,mistralai/mistral-7b-instruct-v0.2,A,"What is the most reliable indicator of a successful brute-force attack in Linux authentication logs?
+A. Large number of sequential failed logins from the same IP
+B. Failed logins outside normal business hours
+C. Logins for disabled accounts
+D. Logins immediately followed by 'sudo' usage
+Answer (ONLY respond with A, B, C, or D): "
+What is the best way to determine if a suspicious executable has been run on any endpoints using osquery?,"(""Search for the file hash in the 'hash' table"", ""Query the 'processes' table for the executable name"", ""Check the 'autoexec' table for references to the path"", ""Review the 'logged_in_users' table around the creation timestamp"")",B,mistralai/mistral-7b-instruct-v0.2,A,"What is the best way to determine if a suspicious executable has been run on any endpoints using osquery?
+A. Search for the file hash in the 'hash' table
+B. Query the 'processes' table for the executable name
+C. Check the 'autoexec' table for references to the path
+D. Review the 'logged_in_users' table around the creation timestamp
+Answer (ONLY respond with A, B, C, or D): "
+You're investigating a malware infection on a Linux server. Which directory is most likely to contain persistence mechanisms?,"('/etc/init.d/', '/var/tmp/', '/home/', '/usr/local/bin/')",A,mistralai/mistral-7b-instruct-v0.2,A,"You're investigating a malware infection on a Linux server. Which directory is most likely to contain persistence mechanisms?
+A. /etc/init.d/
+B. /var/tmp/
+C. /home/
+D. /usr/local/bin/
+Answer (ONLY respond with A, B, C, or D): "
+What is the most reliable indicator of data exfiltration in Zeek HTTP logs?,"('POST requests with large request bodies', 'Responses with 404 status codes', 'Requests to rare user agents', 'Requests to IP-based URLs')",A,mistralai/mistral-7b-instruct-v0.2,A,"What is the most reliable indicator of data exfiltration in Zeek HTTP logs?
+A. POST requests with large request bodies
+B. Responses with 404 status codes
+C. Requests to rare user agents
+D. Requests to IP-based URLs
+Answer (ONLY respond with A, B, C, or D): "
+You've found a suspicious script on a compromised Linux host. What's the best way to determine how it was executed?,"(""Check '.bash_history' files for references to the script"", ""Review 'security-enhanced Linux' (SELinux) logs"", ""Analyze 'systemd' service unit files"", ""Search 'auditd' logs for 'execve' system calls including the path"")",D,mistralai/mistral-7b-instruct-v0.2,D,"You've found a suspicious script on a compromised Linux host. What's the best way to determine how it was executed?
+A. Check '.bash_history' files for references to the script
+B. Review 'security-enhanced Linux' (SELinux) logs
+C. Analyze 'systemd' service unit files
+D. Search 'auditd' logs for 'execve' system calls including the path
+Answer (ONLY respond with A, B, C, or D): "
+What's the best source of evidence to detect use of stolen credentials in AWS CloudTrail logs?,"('ConsoleLogin events from unexpected countries', 'GetUser API calls from unfamiliar IP ranges', 'Failed authentication events for IAM roles', 'AccessDenied errors for S3 bucket policy violations')",A,mistralai/mistral-7b-instruct-v0.2,C,"What's the best source of evidence to detect use of stolen credentials in AWS CloudTrail logs?
+A. ConsoleLogin events from unexpected countries
+B. GetUser API calls from unfamiliar IP ranges
+C. Failed authentication events for IAM roles
+D. AccessDenied errors for S3 bucket policy violations
+Answer (ONLY respond with A, B, C, or D): "
+You're investigating a phishing email that delivered a malicious attachment. What's the best way to identify who opened the file using ELK?,"(""Search Packetbeat for flows to the attacker's C2 domain"", 'Check Metricbeat for process creation events', 'Review Filebeat logs for the attachment hash', 'Analyze Winlogbeat for file access events by user')",D,mistralai/mistral-7b-instruct-v0.2,D,"You're investigating a phishing email that delivered a malicious attachment. What's the best way to identify who opened the file using ELK?
+A. Search Packetbeat for flows to the attacker's C2 domain
+B. Check Metricbeat for process creation events
+C. Review Filebeat logs for the attachment hash
+D. Analyze Winlogbeat for file access events by user
+Answer (ONLY respond with A, B, C, or D): "
+What's the most efficient way to determine if a host has connected to a known malicious IP using osquery?,"(""Query the 'etc_hosts' table for the IP"", ""Search the 'arp_cache' table for the IP MAC address"", ""Check the 'interface_details' table for the IP subnet"", ""Review the 'process_open_sockets' table for connections to the IP"")",D,mistralai/mistral-7b-instruct-v0.2,D,"What's the most efficient way to determine if a host has connected to a known malicious IP using osquery?
+A. Query the 'etc_hosts' table for the IP
+B. Search the 'arp_cache' table for the IP MAC address
+C. Check the 'interface_details' table for the IP subnet
+D. Review the 'process_open_sockets' table for connections to the IP
+Answer (ONLY respond with A, B, C, or D): "
+You need to analyze a malware sample that exploits a recent vulnerability. What's the safest way to do this?,"('Run the malware in a fully-patched virtual machine', 'Upload the sample to VirusTotal for analysis', 'Perform static code analysis in IDA Pro', 'Execute the malware in a containerized sandbox environment')",D,mistralai/mistral-7b-instruct-v0.2,A,"You need to analyze a malware sample that exploits a recent vulnerability. What's the safest way to do this?
+A. Run the malware in a fully-patched virtual machine
+B. Upload the sample to VirusTotal for analysis
+C. Perform static code analysis in IDA Pro
+D. Execute the malware in a containerized sandbox environment
+Answer (ONLY respond with A, B, C, or D): "
+What's the best source of evidence to identify privilege escalation on a Windows host?,"(""4672 events for 'Special Logon' by unauthorized users"", '4720 events for user account creation', '4732 events for addition of users to sensitive groups', '4728 events for changes to user account passwords')",C,mistralai/mistral-7b-instruct-v0.2,C,"What's the best source of evidence to identify privilege escalation on a Windows host?
+A. 4672 events for 'Special Logon' by unauthorized users
+B. 4720 events for user account creation
+C. 4732 events for addition of users to sensitive groups
+D. 4728 events for changes to user account passwords
+Answer (ONLY respond with A, B, C, or D): "
+"During incident response, you identify a compromised privileged account. What's the first step to contain the breach?","('Reset the account password', 'Disable the account', ""Revoke the account's privileged access"", ""Force a logout of all the account's sessions"")",D,mistralai/mistral-7b-instruct-v0.2,C,"During incident response, you identify a compromised privileged account. What's the first step to contain the breach?
+A. Reset the account password
+B. Disable the account
+C. Revoke the account's privileged access
+D. Force a logout of all the account's sessions
+Answer (ONLY respond with A, B, C, or D): "
+You find an unauthorized 'SUID' binary on a compromised Linux host. What's the best way to determine how it was exploited?,"('Check shell history files for invocations of the binary', ""Analyze 'auditd' logs for 'execve' system calls of the binary"", ""Review 'sudo' logs for invocations of the binary"", 'Search application logs for references to the binary path')",B,mistralai/mistral-7b-instruct-v0.2,B,"You find an unauthorized 'SUID' binary on a compromised Linux host. What's the best way to determine how it was exploited?
+A. Check shell history files for invocations of the binary
+B. Analyze 'auditd' logs for 'execve' system calls of the binary
+C. Review 'sudo' logs for invocations of the binary
+D. Search application logs for references to the binary path
+Answer (ONLY respond with A, B, C, or D): "
+What's the most reliable way to detect data staging on a Windows host prior to exfiltration?,"(""Monitor for large files written to 'AppData' directories"", 'Detect creation of archives with password protection', 'Alert on accumulation of files in OS-default temp directories', 'Compare disk write volume to baseline')",C,mistralai/mistral-7b-instruct-v0.2,A,"What's the most reliable way to detect data staging on a Windows host prior to exfiltration?
+A. Monitor for large files written to 'AppData' directories
+B. Detect creation of archives with password protection
+C. Alert on accumulation of files in OS-default temp directories
+D. Compare disk write volume to baseline
+Answer (ONLY respond with A, B, C, or D): "
+You suspect an attacker has modified critical system files on a Linux server. What's the best way to verify file integrity?,"('Compare file hashes to a known-good baseline', 'Check file modification timestamps against package manager logs', 'Verify file permissions against the system security policy', ""Review 'auditd' logs for file modification events"")",A,mistralai/mistral-7b-instruct-v0.2,A,"You suspect an attacker has modified critical system files on a Linux server. What's the best way to verify file integrity?
+A. Compare file hashes to a known-good baseline
+B. Check file modification timestamps against package manager logs
+C. Verify file permissions against the system security policy
+D. Review 'auditd' logs for file modification events
+Answer (ONLY respond with A, B, C, or D): "
+What's the best way to detect an attacker pivoting through a compromised Windows host using ELK?,"('Analyze Packetbeat for unusual network connections', 'Search Winlogbeat for 4624 logon events from other hosts', 'Review Metricbeat for process activity by the attacker', 'Correlate Filebeat logs across hosts for attacker TTPs')",B,mistralai/mistral-7b-instruct-v0.2,A,"What's the best way to detect an attacker pivoting through a compromised Windows host using ELK?
+A. Analyze Packetbeat for unusual network connections
+B. Search Winlogbeat for 4624 logon events from other hosts
+C. Review Metricbeat for process activity by the attacker
+D. Correlate Filebeat logs across hosts for attacker TTPs
+Answer (ONLY respond with A, B, C, or D): "
+You need to investigate a potential 'pass-the-ticket' attack. What's the best source of evidence in Windows event logs?,"('4768 events for Kerberos authentication', '4769 events for Kerberos service ticket requests', '4771 events for Kerberos pre-authentication failures', '4776 events for Kerberos ticket validation')",B,mistralai/mistral-7b-instruct-v0.2,B,"You need to investigate a potential 'pass-the-ticket' attack. What's the best source of evidence in Windows event logs?
+A. 4768 events for Kerberos authentication
+B. 4769 events for Kerberos service ticket requests
+C. 4771 events for Kerberos pre-authentication failures
+D. 4776 events for Kerberos ticket validation
+Answer (ONLY respond with A, B, C, or D): "
+What's the best way to detect persistence via a cron job on a compromised Linux host?,"(""Review user-specific crontabs in '/var/spool/cron/'"", ""Check the system-wide crontab in '/etc/crontab'"", ""Analyze the '/etc/cron.d/' directory contents"", 'Search shell history files for crontab commands')",B,mistralai/mistral-7b-instruct-v0.2,A,"What's the best way to detect persistence via a cron job on a compromised Linux host?
+A. Review user-specific crontabs in '/var/spool/cron/'
+B. Check the system-wide crontab in '/etc/crontab'
+C. Analyze the '/etc/cron.d/' directory contents
+D. Search shell history files for crontab commands
+Answer (ONLY respond with A, B, C, or D): "
+"During an investigation, you find a malicious Windows service. What's the best way to determine its purpose?","(""Analyze service properties with 'sc.exe qc'"", 'Check strings in the service executable', 'Review service event logs', 'Monitor child processes of the service')",C,mistralai/mistral-7b-instruct-v0.2,B,"During an investigation, you find a malicious Windows service. What's the best way to determine its purpose?
+A. Analyze service properties with 'sc.exe qc'
+B. Check strings in the service executable
+C. Review service event logs
+D. Monitor child processes of the service
+Answer (ONLY respond with A, B, C, or D): "
+What's the most reliable indicator of command and control traffic in Zeek DNS logs?,"('High volume of requests to a single domain', 'Requests with long query strings', ""Use of rare record types like 'NULL'"", 'Frequent requests to newly-registered domains')",C,mistralai/mistral-7b-instruct-v0.2,D,"What's the most reliable indicator of command and control traffic in Zeek DNS logs?
+A. High volume of requests to a single domain
+B. Requests with long query strings
+C. Use of rare record types like 'NULL'
+D. Frequent requests to newly-registered domains
+Answer (ONLY respond with A, B, C, or D): "
+You're hunting for evidence of lateral movement using SMB in Zeek logs. What's the best approach?,"(""Search for 'smb_files.log' entries with large read sizes"", ""Review 'dce_rpc.log' for remote execution methods"", ""Check 'ntlm.log' for admin account usage"", ""Analyze 'smb_mapping.log' for C$ share access"")",D,mistralai/mistral-7b-instruct-v0.2,A,"You're hunting for evidence of lateral movement using SMB in Zeek logs. What's the best approach?
+A. Search for 'smb_files.log' entries with large read sizes
+B. Review 'dce_rpc.log' for remote execution methods
+C. Check 'ntlm.log' for admin account usage
+D. Analyze 'smb_mapping.log' for C$ share access
+Answer (ONLY respond with A, B, C, or D): "
+What's the best indicator of malware attempting to evade detection on a Linux host?,"('Unusual child processes of common applications', 'Processes with randomly-generated names', 'Processes executing from temporary filesystem locations', 'Low CPU and memory usage by suspicious processes')",C,mistralai/mistral-7b-instruct-v0.2,C,"What's the best indicator of malware attempting to evade detection on a Linux host?
+A. Unusual child processes of common applications
+B. Processes with randomly-generated names
+C. Processes executing from temporary filesystem locations
+D. Low CPU and memory usage by suspicious processes
+Answer (ONLY respond with A, B, C, or D): "
+You've discovered an attacker backdoor on a critical server. What's the most important step before reimaging?,"('Collect a memory dump', 'Run a virus scan', 'Identify persistence mechanisms', 'Check file modifications against a baseline')",A,mistralai/mistral-7b-instruct-v0.2,C,"You've discovered an attacker backdoor on a critical server. What's the most important step before reimaging?
+A. Collect a memory dump
+B. Run a virus scan
+C. Identify persistence mechanisms
+D. Check file modifications against a baseline
+Answer (ONLY respond with A, B, C, or D): "
+What's the best source of evidence to detect an attacker dumping credentials on a Windows host?,"('Sysmon Event ID 10 for LSASS process access', '4648 events for explicit credential use', '4657 events for kernel objects access violations', '4663 events for sensitive file access')",A,mistralai/mistral-7b-instruct-v0.2,A,"What's the best source of evidence to detect an attacker dumping credentials on a Windows host?
+A. Sysmon Event ID 10 for LSASS process access
+B. 4648 events for explicit credential use
+C. 4657 events for kernel objects access violations
+D. 4663 events for sensitive file access
+Answer (ONLY respond with A, B, C, or D): "
+You need to determine an attacker's lateral movement path through your network. What's the best approach using ELK?,"('Analyze Packetbeat flow data for attacker source IPs', 'Correlate Filebeat authentications across hosts', 'Search Winlogbeat for service creation events', 'Review Metricbeat for unusual binary executions')",B,mistralai/mistral-7b-instruct-v0.2,A,"You need to determine an attacker's lateral movement path through your network. What's the best approach using ELK?
+A. Analyze Packetbeat flow data for attacker source IPs
+B. Correlate Filebeat authentications across hosts
+C. Search Winlogbeat for service creation events
+D. Review Metricbeat for unusual binary executions
+Answer (ONLY respond with A, B, C, or D): "
+What's the best way to detect data exfiltration over DNS using Zeek logs?,"(""Search for large response sizes in 'dns.log'"", ""Review 'conn.log' for DNS flows with high bytes transferred"", ""Check 'files.log' for DNS query result contents"", ""Analyze 'dpd.log' for DNS protocol anomalies"")",C,mistralai/mistral-7b-instruct-v0.2,B,"What's the best way to detect data exfiltration over DNS using Zeek logs?
+A. Search for large response sizes in 'dns.log'
+B. Review 'conn.log' for DNS flows with high bytes transferred
+C. Check 'files.log' for DNS query result contents
+D. Analyze 'dpd.log' for DNS protocol anomalies
+Answer (ONLY respond with A, B, C, or D): "
+"During an investigation, you find an attacker-modified '/etc/passwd' file. What's the best way to determine when it was changed?","(""Check the file's 'mtime' with 'stat'"", ""Review 'lastlog' for user creation times"", ""Analyze 'auditd' logs for modification events"", ""Search shell history for 'passwd' commands"")",C,mistralai/mistral-7b-instruct-v0.2,A,"During an investigation, you find an attacker-modified '/etc/passwd' file. What's the best way to determine when it was changed?
+A. Check the file's 'mtime' with 'stat'
+B. Review 'lastlog' for user creation times
+C. Analyze 'auditd' logs for modification events
+D. Search shell history for 'passwd' commands
+Answer (ONLY respond with A, B, C, or D): "
+What's the most reliable indicator of a webshell on an IIS server?,"(""Unexpected '.aspx' files in web directories"", 'POST requests with large base64 parameters', 'Unusual user agent strings in IIS logs', 'Frequent 500 status codes in IIS logs')",B,mistralai/mistral-7b-instruct-v0.2,Based,"What's the most reliable indicator of a webshell on an IIS server?
+A. Unexpected '.aspx' files in web directories
+B. POST requests with large base64 parameters
+C. Unusual user agent strings in IIS logs
+D. Frequent 500 status codes in IIS logs
+Answer (ONLY respond with A, B, C, or D): "
+You're investigating an incident on AWS involving unauthorized EC2 instances. What's the best way to determine their purpose?,"('Analyze CloudTrail for API calls from the instances', ""Review VPC Flow Logs for the instances' network activity"", 'Check GuardDuty for findings related to the instances', 'Correlate instance launch times with other events')",B,mistralai/mistral-7b-instruct-v0.2,A,"You're investigating an incident on AWS involving unauthorized EC2 instances. What's the best way to determine their purpose?
+A. Analyze CloudTrail for API calls from the instances
+B. Review VPC Flow Logs for the instances' network activity
+C. Check GuardDuty for findings related to the instances
+D. Correlate instance launch times with other events
+Answer (ONLY respond with A, B, C, or D): "
+What's the best source of evidence to detect privilege abuse by an AWS IAM user?,"('Access denied errors in CloudTrail', 'API calls to attach admin policies in CloudTrail', 'Failed console logins in CloudTrail', 'Unusual regions for API calls in CloudTrail')",B,mistralai/mistral-7b-instruct-v0.2,A,"What's the best source of evidence to detect privilege abuse by an AWS IAM user?
+A. Access denied errors in CloudTrail
+B. API calls to attach admin policies in CloudTrail
+C. Failed console logins in CloudTrail
+D. Unusual regions for API calls in CloudTrail
+Answer (ONLY respond with A, B, C, or D): "
+You suspect an insider has stolen sensitive data from an S3 bucket. What's the best way to investigate using CloudTrail?,"(""Review 'GetObject' API calls by the user"", ""Check for 'PutACL' API calls on the bucket"", ""Analyze 'ListBucket' API calls for enumeration"", ""Search for 'DeleteObject' API calls by the user"")",A,mistralai/mistral-7b-instruct-v0.2,A,"You suspect an insider has stolen sensitive data from an S3 bucket. What's the best way to investigate using CloudTrail?
+A. Review 'GetObject' API calls by the user
+B. Check for 'PutACL' API calls on the bucket
+C. Analyze 'ListBucket' API calls for enumeration
+D. Search for 'DeleteObject' API calls by the user
+Answer (ONLY respond with A, B, C, or D): "
+What's the best indicator of an attacker disabling defenses on a Windows host?,"('Stopping of antivirus services', 'Uninstallation of EDR agents', 'Deletion of local security policies', 'Termination of security monitoring processes')",B,mistralai/mistral-7b-instruct-v0.2,A,"What's the best indicator of an attacker disabling defenses on a Windows host?
+A. Stopping of antivirus services
+B. Uninstallation of EDR agents
+C. Deletion of local security policies
+D. Termination of security monitoring processes
+Answer (ONLY respond with A, B, C, or D): "
+You've identified a spike in network traffic from a server. What's the best Zeek log source to investigate further?,"('conn.log for connections to suspicious IPs', 'http.log for POST requests with large bodies', 'files.log for transfers of sensitive data', 'notice.log for protocol analyzer alerts')",A,mistralai/mistral-7b-instruct-v0.2,Based,"You've identified a spike in network traffic from a server. What's the best Zeek log source to investigate further?
+A. conn.log for connections to suspicious IPs
+B. http.log for POST requests with large bodies
+C. files.log for transfers of sensitive data
+D. notice.log for protocol analyzer alerts
+Answer (ONLY respond with A, B, C, or D): "
+"During an investigation of a cloud incident, you find an attacker-created IAM access key. What's the best way to determine its permissions?","('Review its IAM policy attachments', 'Check its last-used timestamp', 'Analyze API calls made with the key', ""Test the key with 'get-caller-identity'"")",C,mistralai/mistral-7b-instruct-v0.2,A,"During an investigation of a cloud incident, you find an attacker-created IAM access key. What's the best way to determine its permissions?
+A. Review its IAM policy attachments
+B. Check its last-used timestamp
+C. Analyze API calls made with the key
+D. Test the key with 'get-caller-identity'
+Answer (ONLY respond with A, B, C, or D): "
+What's the best source of evidence to identify an attacker's initial entry point on a Windows network?,"('Authentication events to perimeter servers', 'Process creation events on workstations', ""Logon events with 'Type 3' on domain controllers"", 'Network connection events to external IPs')",A,mistralai/mistral-7b-instruct-v0.2,D,"What's the best source of evidence to identify an attacker's initial entry point on a Windows network?
+A. Authentication events to perimeter servers
+B. Process creation events on workstations
+C. Logon events with 'Type 3' on domain controllers
+D. Network connection events to external IPs
+Answer (ONLY respond with A, B, C, or D): "
+You're investigating a compromised Windows endpoint. What's the best way to determine attacker remote access?,"('Review Sysmon Event ID 3 for network connections', 'Check Security event 4624 for remote desktop logins', 'Analyze Sysmon Event ID 13 for registry changes', 'Search Security event 5156 for firewall changes')",A,mistralai/mistral-7b-instruct-v0.2,B,"You're investigating a compromised Windows endpoint. What's the best way to determine attacker remote access?
+A. Review Sysmon Event ID 3 for network connections
+B. Check Security event 4624 for remote desktop logins
+C. Analyze Sysmon Event ID 13 for registry changes
+D. Search Security event 5156 for firewall changes
+Answer (ONLY respond with A, B, C, or D): "
+What's the most reliable indicator of attacker access to AWS secrets in CloudTrail?,"('GetSecretValue API calls by unfamiliar principals', 'DeleteSecret API calls for critical secrets', 'Secrets Manager authentication failures', 'PutSecret API calls without encryption parameters')",A,mistralai/mistral-7b-instruct-v0.2,A,"What's the most reliable indicator of attacker access to AWS secrets in CloudTrail?
+A. GetSecretValue API calls by unfamiliar principals
+B. DeleteSecret API calls for critical secrets
+C. Secrets Manager authentication failures
+D. PutSecret API calls without encryption parameters
+Answer (ONLY respond with A, B, C, or D): "

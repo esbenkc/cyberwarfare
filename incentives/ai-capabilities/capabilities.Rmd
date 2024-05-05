@@ -1,0 +1,116 @@
+```{r}
+pacman::p_load(tidyverse,ggplot2,viridis,scales)
+```
+
+```{r}
+df <- read_csv("Epoch Database - Notable Systems.csv")
+```
+
+```{r, fig.width=3,fig.height=2}
+df <- df %>% 
+  select(
+    Parameters,
+    `Country (from Organization)`,
+    `Publication date`,
+  ) %>% 
+  drop_na(Parameters) %>% 
+  filter(
+    str_detect(`Country (from Organization)`, "United States of America|China")
+  ) %>% 
+  mutate(
+    `Country (from Organization)` = str_extract(`Country (from Organization)`, "United States of America|China"),
+    `Publication date` = format(as.Date(`Publication date`, format="%d/%m/%Y"),"%Y")
+  ) %>% 
+  group_by(
+    `Country (from Organization)`,
+    `Publication date`
+  ) %>% 
+  summarise(
+    Parameters = sum(Parameters)
+  ) %>% 
+  rename(
+    Country = `Country (from Organization)`,
+    Year = `Publication date`
+  ) %>%
+  mutate(
+    Year = as.numeric(Year)
+  )
+```
+
+```{r}
+df %>% 
+  filter(Year == 2023)
+
+growth_rate <- df %>%
+  group_by(Country) %>%
+  mutate(GrowthRate = (Parameters / lag(Parameters, default = first(Parameters))) - 1) %>%
+  ungroup() %>% 
+  filter(Year < 2024)
+
+growth_rate %>% 
+  group_by(Country) %>% 
+  summarise(
+    median(GrowthRate)
+  )
+
+cor(growth_rate$GrowthRate, growth_rate$Parameters, use = "complete.obs")
+```
+
+
+```{r, fig.width=3,fig.height=2}
+df %>% 
+  mutate(
+    Country = if_else(Country=="China", "China", "USA")
+  ) %>% 
+  ggplot() +
+  aes(x = Year, y = Parameters, color = Country) +
+  geom_line(stat = "identity", position = "dodge", linewidth=1) +
+  labs(x = "Year",
+       y = "Total parameters",
+       fill = "Country") +
+  ggthemes::scale_color_colorblind() +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5),
+    axis.title = element_text(size = 12),
+    axis.text = element_text(size = 10),
+    legend.title = element_text(size = 12),
+    legend.text = element_text(size = 10),
+    panel.grid.major.y = element_line(color = "gray90"),
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = c(0.2, 0.75)
+  ) +
+  scale_x_continuous(breaks=pretty_breaks()) +
+  coord_cartesian(xlim=c(2018,2024))
+
+```
+```{r, fig.width=3,fig.height=2}
+growth_rate %>% 
+  ggplot() +
+  aes(x = Year, y = GrowthRate, color = Country) +
+  geom_line(stat = "identity", position = "dodge", linewidth=1) +
+  labs(x = "Year",
+       y = "Growth Rate",
+       fill = "Country") +
+  scale_color_manual(values =c("blue", "red")) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5),
+    axis.title = element_text(size = 12),
+    axis.text = element_text(size = 10),
+    legend.title = element_text(size = 12),
+    legend.text = element_text(size = 10),
+    panel.grid.major.y = element_line(color = "gray90"),
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none"
+  ) +
+  scale_x_continuous(breaks=pretty_breaks()) +
+  coord_cartesian(xlim=c(2018,2023), ylim = c(0,11))
+
+```
